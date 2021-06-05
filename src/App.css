@@ -1,0 +1,131 @@
+
+body{
+  background: linear-gradient(to top,seagreen 5%, wheat);
+  background-size: cover;
+padding: auto;
+margin: auto;
+  
+
+}
+.main{
+ padding: auto;
+ margin: auto;
+
+}
+.text-area{
+font-size: 24px;
+font-weight: bold;
+font-family: 'Courier New', Courier, monospace;
+font-style: bold;
+
+color: rgb(8, 4, 4);
+text-align: center;
+padding-top: 10%;
+font-family: 'Suez One', serif;
+}
+/* #card{
+margin-left: 85px;
+box-sizing: border-box;
+margin-top: 50px;
+}
+.maindiv{
+  display: flex;
+  flex-direction: row;
+ justify-content: space-around;
+
+} */
+/* .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+} */
+
+.card {
+  width: 20%;
+  background: #fff;
+  border: 1px solid #ccc;
+  margin-bottom: 50px;
+  transition: 0.3s;
+}
+
+.card-header {
+  text-align: center;
+  padding: 50px 10px;
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
+  color: #fff;
+  height: auto;
+}
+
+
+.card-body {
+  padding: 30px 20px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.card-body .btn {
+  display: block;
+  color: #fff;
+  text-align: center;
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
+  margin-top: 30px;
+  text-decoration: none;
+  padding: 10px 5px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (max-width: 1000px) {
+  .card {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .container {
+    width: 100%;
+  }
+
+  .heading {
+    padding: 20px;
+    font-size: 20px;
+  }
+
+  .card {
+    width: 80%;
+  }
+}
+
+
+
+
+#card-header:hover{
+  background: linear-gradient(to right, white , green);
+}
+
+#card1-header:hover{
+  background: white;
+  color: black;
+}
+#card2-header:hover{
+  background: skyblue
+}
+#card3-header:hover{
+  background: red;
+  color: black;
+}
+#card4-header:hover{
+  background: lightyellow;
+  color: #000;
+}
+#card5-header:hover{
+  background: burlywood
+}
+
+
+
+
